@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    password: data
+    username: root
+    url: jdbc:mysql://localhost/fornecedor?useTimezone=true&serverTimezone=UTC
+    driverClassName: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+      database-platform: org.hibernate.dialect.MySQL8Dialect
